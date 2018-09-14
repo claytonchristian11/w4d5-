@@ -13,16 +13,30 @@
     <%= yield %>
   </body>
   <% if @user %>
-  <% if User.find_by(id: @user.id) %>
-    DELETE FOREVER
-    <br><br>
-    <%= @user.username %>
-    <form action="<%= user_url %>" method="post">
-      <input type="hidden" name="_method" value="delete">
-      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <% if User.find_by(id: @user.id) %>
+      DELETE FOREVER
+      <br><br>
+      <%= @user.username %>
+      <form action="<%= user_url %>" method="post">
+        <input type="hidden" name="_method" value="delete">
+        <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
-      <input type="submit" name="" value="DESTROY HIM">
-    </form>
-  <% end %>
+        <input type="submit" name="" value="DESTROY HIM">
+      </form>
+    <% end %>
+
+    <% else %>
+      <form action="<%= session_url %>" method="post">
+        <input type="hidden" name="_method" value="delete">
+        <br>
+        Username:
+        <input type="text" name="user[username]" value="">
+        <br>
+        Password:
+        <input type="text" name="user[password]" value="">
+        <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+        <input type="submit" name="" value="Login">
+      </form>
   <% end %>
 </html>

@@ -24,4 +24,6 @@ feature 'the signup process' do
       expect(page).to have_content 'Socrates'
     end
   end
+
+  
 end

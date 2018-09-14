@@ -564,3 +564,566 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 86ms (Views: 82.7ms | ActiveRecord: 2.3ms)
 
 
+Started POST "/users" for 127.0.0.1 at 2018-09-14 16:11:39 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"PNNPfoUV0V617kN3O/dn1aPBoG0hZ127rEk8gvhqivqYphamDlZSdnnrYzLXwxlm1711gVXAlyLu+DUcgR9oDg==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (11.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$cfybVPkUEHJyU6F9caPkAe1mOjkuhHyqekbr43w4uzoAk9TFeK8fa"], ["created_at", "2018-09-14 23:11:39.836832"], ["updated_at", "2018-09-14 23:11:39.836832"], ["session_token", "F2_2E4EYsDKAT-6z46JkMQ"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (10.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:12
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 23:11:39.864237"], ["session_token", "r1pV4UF7wmFellTGbpYu9A"], ["id", 5]]
+  ↳ app/models/user.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:12
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 172ms (ActiveRecord: 34.5ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2018-09-14 16:11:39 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 147ms (Views: 140.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2018-09-14 16:23:09 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 16:23:14 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 191ms (Views: 93.3ms | ActiveRecord: 14.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-09-14 16:23:24 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"dJJdDau1rJ++bMohd/NQ1j1XqjVcXGO+3A9GJGh95WrQ5wTVIPYvt3Jp6mSbxy5lSSt/2Sj7qSeevk+6EQgHng==", "user"=>{"username"=>"Newyork", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Newyork"], ["password_digest", "$2a$10$yAIUrp1wVcOIkvaTk3sEAe.5ct/scrlwwS8qpcKJJ4mMJ8TcJJe7i"], ["created_at", "2018-09-14 23:23:24.593583"], ["updated_at", "2018-09-14 23:23:24.593583"], ["session_token", "9WJSRiV9Y-AHsnBbKxvnmQ"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (93.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:17
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 23:23:24.691339"], ["session_token", "6HVc0ZJ4ai8NmeG_t7HVhA"], ["id", 6]]
+  ↳ app/models/user.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:17
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 186ms (ActiveRecord: 96.5ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2018-09-14 16:23:24 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 46ms (Views: 41.3ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/users/6" for 127.0.0.1 at 2018-09-14 16:23:29 -0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HUYeVJB9NTBhTcA7U0yJYHbRaeUgtByuUEkiTIHuTi+5M0eMGz62GK1I4H6/ePfTAq28CVQT1jcS+CvS+Jus2w==", "id"=>"6"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:21
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/users_controller.rb:21
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:21
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 6ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 16:23:29 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-09-14 16:26:12 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"K79EMJcnpXIooBF4tsJA70vxW5hdsOGIMQ3iYOUgdRaPyh3oHGQmWuSlMT1a9j5cP42OdCkXKxFzvOv+nFWX4g==", "user"=>{"username"=>"clayton", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "clayton"], ["password_digest", "$2a$10$qMSxTcIw0eAYvR5T9HpG1.n2dd24Lehw.z8VRFNPaoi14sLVZakXq"], ["created_at", "2018-09-14 23:26:12.134195"], ["updated_at", "2018-09-14 23:26:12.134195"], ["session_token", "lpE4hCoomzIlrkidCOLS8g"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:17
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 23:26:12.137240"], ["session_token", "ukjgofXsldh0xt25Hf5keQ"], ["id", 7]]
+  ↳ app/models/user.rb:17
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:17
+Redirected to http://localhost:3000/users/7
+Completed 302 Found in 90ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2018-09-14 16:26:12 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2018-09-14 16:28:00 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:28:06 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:28:35 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::UrlGenerationError - No route matches {:action=>"show", :controller=>"users"}, missing required keys: [:id]:
+  app/views/layouts/application.html.erb:30:in `_app_views_layouts_application_html_erb__421680203805599639_70255677891400'
+
+Started POST "/__better_errors/b9112bf2a01ce468/variables" for 127.0.0.1 at 2018-09-14 16:28:35 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:29:23 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::UrlGenerationError - No route matches {:action=>"show", :controller=>"users"}, missing required keys: [:id]:
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb__421680203805599639_70255720131120'
+
+Started POST "/__better_errors/60c3f3a6ba25b7c8/variables" for 127.0.0.1 at 2018-09-14 16:29:23 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:30:25 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:31:35 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:31:47 -0700
+
+NameError - uninitialized constant ApllicationController:
+  app/controllers/sessions_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/6e4e7a25c513276b/variables" for 127.0.0.1 at 2018-09-14 16:31:47 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:32:11 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:32:19 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}, "authenticity_token"=>"t4nx4FXWeYJ43EvmFTq8w88ikWih0s90T2XpgPB8C70T/Kg43pX6qrTZa6P5DsJwu15EhNV1Be0N1OAeiQnpSQ=="}
+Completed 500 Internal Server Error in 166ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `logout!' for #<SessionsController:0x00007fcb5b50eaf0>
+Did you mean?  logout:
+  app/controllers/sessions_controller.rb:20:in `destroy'
+
+Started POST "/__better_errors/697e82d6fada2ee6/variables" for 127.0.0.1 at 2018-09-14 16:32:20 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:32:37 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:32:44 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}, "authenticity_token"=>"ugYT3fX6gMHgg+tfIwIjtrC603fUtxlE4+SY7MEBo60ec0oFfrkD6SyGyxrPNl0FxMYGm6AQ092hVZFyuHRBWQ=="}
+Completed 500 Internal Server Error in 210ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `user' for #<SessionsController:0x00007fcb59b41c80>:
+  app/controllers/application_controller.rb:8:in `logout!'
+  app/controllers/sessions_controller.rb:20:in `destroy'
+
+Started POST "/__better_errors/cb3079657593be50/variables" for 127.0.0.1 at 2018-09-14 16:32:44 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:33:20 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:33:32 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}, "authenticity_token"=>"4cWMmVHoeZnVla/n39+P0bmjslx4mMUrFvIM09rsN/BFsNVB2qv6sRmQj6Iz6/Fizd9nsAw/D7JUQwVNo5nVBA=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ukjgofXsldh0xt25Hf5keQ"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:17
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "y8y_yUS34EcweGaJ_wEfQg"], ["updated_at", "2018-09-14 23:33:32.489599"], ["id", 7]]
+  ↳ app/models/user.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:17
+Redirected to http://localhost:3000/session/new
+Completed 302 Found in 80ms (ActiveRecord: 14.1ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:33:32 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:36:15 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:36:20 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}, "authenticity_token"=>"P1y77Woaz3hqEg+z9NKLmpZ65+Z/QmSushsU/B1wbBubKeI14VlMUKYXL/YY5vUp4gYyCgvlrjfwqh1iZAWO7w=="}
+Completed 500 Internal Server Error in 293ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `sessions' for #<SessionsController:0x00007fcb597470f8>
+Did you mean?  session:
+  app/controllers/sessions_controller.rb:9:in `current_user'
+  app/controllers/application_controller.rb:8:in `logout!'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Started POST "/__better_errors/d763d4bfb5702930/variables" for 127.0.0.1 at 2018-09-14 16:36:21 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:36:49 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:36:57 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}, "authenticity_token"=>"79LMSgd8aYWsVgd0Kytyp1qTWrwKas6YY2jpGrer/DBLp5WSjD/qrWBTJzHHHwwULu+PUH7NBAEh2eCEzt4exA=="}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:9
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 4.0ms)
+
+
+
+NoMethodError - undefined method `resets_session_token' for nil:NilClass:
+  app/controllers/application_controller.rb:9:in `logout!'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Started POST "/__better_errors/27b9f3c873133c44/variables" for 127.0.0.1 at 2018-09-14 16:36:57 -0700
+Started POST "/__better_errors/27b9f3c873133c44/eval" for 127.0.0.1 at 2018-09-14 16:37:03 -0700
+Started POST "/__better_errors/27b9f3c873133c44/eval" for 127.0.0.1 at 2018-09-14 16:37:06 -0700
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:9
+Started POST "/__better_errors/27b9f3c873133c44/eval" for 127.0.0.1 at 2018-09-14 16:37:09 -0700
+Started POST "/__better_errors/27b9f3c873133c44/eval" for 127.0.0.1 at 2018-09-14 16:37:19 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:37:29 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/session" for 127.0.0.1 at 2018-09-14 16:37:35 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}, "authenticity_token"=>"f11vrgXo/XbDA2bVJBv7jyFvlttU57UlQ6Tnmcj+8yXbKDZ2jqt+Xg8GRpDIL4U8VRNDNyBAf7wBFe4HsYsR0Q=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:9
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 2.8ms)
+
+
+
+NoMethodError - undefined method `resets_session_token' for nil:NilClass:
+  app/controllers/application_controller.rb:9:in `logout!'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Started POST "/__better_errors/572083704a0a1037/variables" for 127.0.0.1 at 2018-09-14 16:37:35 -0700
+Started POST "/__better_errors/572083704a0a1037/eval" for 127.0.0.1 at 2018-09-14 16:37:46 -0700
+Started GET "/users" for 127.0.0.1 at 2018-09-14 16:39:10 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 165ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-09-14 16:39:33 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/sessions/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:39:37 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 80ms (Views: 69.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:47:48 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (364.6ms)
+Completed 500 Internal Server Error in 370ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `sessions_url' for #<#<Class:0x00007fcb5a5b0a40>:0x00007fcb5e6c2c40>
+Did you mean?  session_url:
+  app/views/sessions/new.html.erb:2:in `_app_views_sessions_new_html_erb___3180729447905929628_70255719602980'
+  app/controllers/sessions_controller.rb:5:in `new'
+
+Started POST "/__better_errors/06f93000f2c09278/variables" for 127.0.0.1 at 2018-09-14 16:47:48 -0700
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:47:59 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/session/new" for 127.0.0.1 at 2018-09-14 16:48:06 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/session/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/session/new" for 127.0.0.1 at 2018-09-14 16:48:51 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/session/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/session/new" for 127.0.0.1 at 2018-09-14 16:49:15 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/session/new"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:49:46 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/session/new?authenticity_token=CH4gU9ty7WNUWOf5JtuQ%2B2b1rfCKNn88njq7EHtmHN%2BsC3mLUDFuS5hdx7zK7%2B5IEol4HP6RtaXci7KOAhP%2BKw%3D%3D&user%5Busername%5D=Socrates&user%5Bpassword%5D=[FILTERED]" for 127.0.0.1 at 2018-09-14 16:50:12 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"CH4gU9ty7WNUWOf5JtuQ+2b1rfCKNn88njq7EHtmHN+sC3mLUDFuS5hdx7zK7+5IEol4HP6RtaXci7KOAhP+Kw==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:52:59 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 15.3ms)
+
+
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___3180729447905929628_70255753843860'
+  app/controllers/sessions_controller.rb:5:in `new'
+
+Started POST "/__better_errors/1a6e557911a9154c/variables" for 127.0.0.1 at 2018-09-14 16:52:59 -0700
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:53:57 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 83ms (Views: 81.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/session?authenticity_token=JHpfNFGX3I3FSZJrBz%2Bp2w3xvc4idHa25AAUkCPhPo6ADwbs2tRfpQlMsi7rC9doeY1oIlbTvC%2BmsR0OWpTceg%3D%3D&user%5Busername%5D=Socrates&user%5Bpassword%5D=[FILTERED]" for 127.0.0.1 at 2018-09-14 16:54:03 -0700
+
+AbstractController::ActionNotFound - The action 'show' could not be found for SessionsController:
+
+Started POST "/__better_errors/6304f78fd4631844/variables" for 127.0.0.1 at 2018-09-14 16:54:03 -0700
+Started GET "/session/new" for 127.0.0.1 at 2018-09-14 16:54:32 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/session/new?authenticity_token=tW0Fzykf5jZrXv7WCiljQl9DHG6W6uNUywYsmkOpkbURGFwXolxlHqdb3pPmHR3xKz%2FJguJNKc2JtyUEOtxzQQ%3D%3D&user%5Busername%5D=Socrates&user%5Bpassword%5D=[FILTERED]" for 127.0.0.1 at 2018-09-14 16:54:42 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"tW0Fzykf5jZrXv7WCiljQl9DHG6W6uNUywYsmkOpkbURGFwXolxlHqdb3pPmHR3xKz/JguJNKc2JtyUEOtxzQQ==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:16
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.5ms)
+
+

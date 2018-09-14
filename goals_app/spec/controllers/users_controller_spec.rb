@@ -9,6 +9,7 @@ RSpec.describe UsersController, type: :controller do
   end
 
 
+
   describe "POST #new" do
     it "renders the new users template" do
       get :new
