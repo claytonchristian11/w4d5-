@@ -27,18 +27,10 @@ RSpec.describe UsersController, type: :controller do
   describe "POST #create" do
     it "makes a new user and saves DB" do
       post :create, params: { user: { username: 'spiderman', password: 'maryjane' } }
-
-      expect(response).to render_template('new')
-      expect(flash[:errors]).to be_present
+      user = User.find_by(username: 'spiderman')
+      expect(user.username).to eq('spiderman')
     end
   end
 
-  describe "POST #destroy" do
-    it "permanently deletes a philospher" do
-      delete :destroy, params: { user: { username: 'Jim Carrey', password: 'themask' } }
-
-      expect(response).to change(User, :count).by(-1)
-    end
-  end
 
 end

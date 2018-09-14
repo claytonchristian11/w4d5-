@@ -6,9 +6,6 @@ class User < ApplicationRecord
 
   attr_reader :password
 
-  def generates_session_token
-    SecureRandom.urlsafe_base64
-  end
 
   def resets_session_token
     self.session_token = SecureRandom.urlsafe_base64

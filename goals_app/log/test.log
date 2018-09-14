@@ -420,3 +420,1707 @@
   [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hippocrates"], ["password_digest", "$2a$10$WiSTrGrekLMAs4G32hHVN.bhSSGrB0IqviH9PlVRQojO4ugy3km7W"], ["created_at", "2018-09-14 21:30:10.559073"], ["updated_at", "2018-09-14 21:30:10.559073"], ["session_token", "MD7EJ9mHWoFQ0jm2P28qIQ"]]
   [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (13.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$raQ57JiqEXO.dIKv4ATx7OLMTjogxiwiWj2IWPBxZhijzDd09OPgO"], ["created_at", "2018-09-14 21:44:58.371534"], ["updated_at", "2018-09-14 21:44:58.371534"], ["session_token", "_0Ak1Ig07LG7aiYEkCObnw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Epicurus"], ["password_digest", "$2a$10$KeUigmOBVJSSu9q9cot9dOzHIyjOQBiJhNOpLshRrXN85VR.XFWqO"], ["created_at", "2018-09-14 21:44:58.461336"], ["updated_at", "2018-09-14 21:44:58.461336"], ["session_token", "XJMYutiNC1j2DDU8ZaOtcQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Antisthenes"], ["password_digest", "$2a$10$a.IQUlO/Kj4dq9y4IwTHt.n1iB7GubeLM7ucHwYhrw91pOrGRjUX."], ["created_at", "2018-09-14 21:44:58.546417"], ["updated_at", "2018-09-14 21:44:58.546417"], ["session_token", "pnJbnIPjGROhmDbsSO5vmw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Heraclitus"], ["password_digest", "$2a$10$Stgb1LMvOp00t0aPSWWDT.Puhh77grozb.DSFz1xS3wmtSWYJSTjy"], ["created_at", "2018-09-14 21:44:58.632228"], ["updated_at", "2018-09-14 21:44:58.632228"], ["session_token", "rJa_XVteNtjrKRaIq0itIA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$ZXZEGrJdXBZfDf8CuZeoXOwskADBtTHJhxM6UI.47lK0WNybiy.9G"], ["created_at", "2018-09-14 21:44:58.717448"], ["updated_at", "2018-09-14 21:44:58.717448"], ["session_token", "t0tU7TbSPFi3RCbXML5HJQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Epicurus"], ["password_digest", "$2a$10$ekv0TcbL74kaoIa69GNbwurVD7bsMgspWShavoAUJTY89l5J7r69."], ["created_at", "2018-09-14 21:44:58.991189"], ["updated_at", "2018-09-14 21:44:58.991189"], ["session_token", "Jcz8U1IhUj4tS5DK2ODG-Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 21:44:58.993107"], ["session_token", "tYG5I1fcWNJ6ZP4HRl1gIg"], ["id", 41]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$TS/fGU9OqDIoFxFk3h8xL.IMo9E4UpOGMquHdFdljHkAvq69eHLG."], ["created_at", "2018-09-14 21:44:59.082612"], ["updated_at", "2018-09-14 21:44:59.082612"], ["session_token", "2UT3Kuta4hHLW_glLhPrkw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 7.9ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thucydides"], ["password_digest", "$2a$10$ibTzSnEJJXbPvmvinjfHTOUrioBXpaFn1.cV/NaSDuYP9A12bcOfO"], ["created_at", "2018-09-14 21:45:48.726494"], ["updated_at", "2018-09-14 21:45:48.726494"], ["session_token", "38-Fqs5AliZLnN07FlnzqQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$mWIyDYS0eQTGSYqvLHtaNuSfbLVX4Zk77Y5iPIgZA40i2Rbt5QC4q"], ["created_at", "2018-09-14 21:45:48.871057"], ["updated_at", "2018-09-14 21:45:48.871057"], ["session_token", "nUkLfYWLHlRkCYP1IyuZfg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 1.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hippocrates"], ["password_digest", "$2a$10$h6K.6kIY0zFLqRwApLkiJ.KYOOHIBrjMD1bm3uE7cGNTZpG9yHS7G"], ["created_at", "2018-09-14 21:45:48.969682"], ["updated_at", "2018-09-14 21:45:48.969682"], ["session_token", "9_3X0PwfkhlFudGyHgELLA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Heraclitus"], ["password_digest", "$2a$10$LBC0yJGtUNtrNQrgDylQtugYVLIR3vPiynZP8uKk3ORxVJdceFNhO"], ["created_at", "2018-09-14 21:45:49.059619"], ["updated_at", "2018-09-14 21:45:49.059619"], ["session_token", "MVnpnB57nUpiiTAIT1a2Kw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Gorgias"], ["password_digest", "$2a$10$B7BULGIePOcLAIXf/pfcqusJjv1RF3dnUgDze9uhb6I.XN.JUW.pu"], ["created_at", "2018-09-14 21:45:49.148782"], ["updated_at", "2018-09-14 21:45:49.148782"], ["session_token", "K8ueAJzAVGGXF1ns8e65dA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$VJxWvVZ2HQSHok3jhhU9geefd8juyB9AZCnNpOdBxwJ0.6aCsmp16"], ["created_at", "2018-09-14 21:45:49.236685"], ["updated_at", "2018-09-14 21:45:49.236685"], ["session_token", "aLyyAdodfEfxmJTyJeglXg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$RkRrsnb3AmzlYV/QckC8eu/L0ZmvAuPTNm8FEdUV.KITpZFtgfnnS"], ["created_at", "2018-09-14 21:45:49.533024"], ["updated_at", "2018-09-14 21:45:49.533024"], ["session_token", "MKFMqY7NIk7aSdBqrYZe3A"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 21:45:49.536104"], ["session_token", "tsLdzFJdRuJMX-xShiROuA"], ["id", 49]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$4ixwankTfa960W1afpB9COEoZ6Y0cZmKv8EN3t5vKWF93WUO4hdtO"], ["created_at", "2018-09-14 21:45:49.630034"], ["updated_at", "2018-09-14 21:45:49.630034"], ["session_token", "IMrWBOna_vB0fIuQiDeiFg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (23.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 38ms (Views: 24.3ms | ActiveRecord: 6.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$whxtu/XH6XbAXaBgiHYftueTIAAdlS8R7Ob1CBPqEqczEozxl3/MK"], ["created_at", "2018-09-14 21:54:45.230279"], ["updated_at", "2018-09-14 21:54:45.230279"], ["session_token", "hdKcFMVnS093lbgw3E08jg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"51"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 51], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 27ms (Views: 7.7ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$bfrXBZsFTF9tckaTrAzxiOW0FvdFo3MwZszzWkk2zcSr4OgF6mGOC"], ["created_at", "2018-09-14 21:54:45.360814"], ["updated_at", "2018-09-14 21:54:45.360814"], ["session_token", "Kswrhz9TPRBjtqQJP1hGqQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 21:54:45.362733"], ["session_token", "1BnBHKI503x2ZOB-H-qXfw"], ["id", 52]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/52
+Completed 302 Found in 85ms (ActiveRecord: 1.7ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Pythagoras"], ["password_digest", "$2a$10$dVn9J4AEu5SAkJ6yCRnHkOXqQptTeRhleYsJfFE2YjMmc9XOyRyVq"], ["created_at", "2018-09-14 21:54:45.459504"], ["updated_at", "2018-09-14 21:54:45.459504"], ["session_token", "XTDshHf8h1pO_NyGr2whwA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Proclus"], ["password_digest", "$2a$10$pY6hGXDLRVB3o1cQPcEate0DAKMNXbT0ACAP9p5qrR74v7uh2NKHK"], ["created_at", "2018-09-14 21:54:45.545317"], ["updated_at", "2018-09-14 21:54:45.545317"], ["session_token", "8tM_hUN-jCnz2ldIo8mAkQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Democritus"], ["password_digest", "$2a$10$HtxTkogm6q4E1tzmJ/cUduX.cy0V2qyxJNHNA2SkKbljvvtNZanZm"], ["created_at", "2018-09-14 21:54:45.632035"], ["updated_at", "2018-09-14 21:54:45.632035"], ["session_token", "j4-364EjFSSk9wmPXCjacQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Chrysippus"], ["password_digest", "$2a$10$kY4jdo3QZuHaFyYBcb/9K.e0msOq2a/9YtxLFtmO.yh0cBpLt5hiK"], ["created_at", "2018-09-14 21:54:45.717416"], ["updated_at", "2018-09-14 21:54:45.717416"], ["session_token", "0hBrOv3xeoCOw8bRHfpG3w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Chrysippus"], ["password_digest", "$2a$10$EDvnuRWNXZ68mnaiu0HzNeFPLXcQd5LnDKvbkzrRvibjt8MSj82Q2"], ["created_at", "2018-09-14 21:54:46.007485"], ["updated_at", "2018-09-14 21:54:46.007485"], ["session_token", "HZW5AOxSYN6zwYREJNkwlg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 21:54:46.009330"], ["session_token", "8u-yhsdYVcDYBmqExhcKTw"], ["id", 57]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Proclus"], ["password_digest", "$2a$10$sq.M7d0IOdofs7nxNMNJQ.PKoHB4xLHbwVLqlA4Plp5DAY1NRk9nu"], ["created_at", "2018-09-14 21:54:46.108092"], ["updated_at", "2018-09-14 21:54:46.108092"], ["session_token", "zPNH4CDzbAIem3UrszNAhA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 49ms (Views: 35.9ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$UJ2MdPp8Jnw1qZXWuTASteLdL2ToJ9zcEsc8DIhTLXn14qwiLq04K"], ["created_at", "2018-09-14 22:01:16.743909"], ["updated_at", "2018-09-14 22:01:16.743909"], ["session_token", "Lj0gKARKdHrYdnZqpfkiPA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"59"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 59], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 29ms (Views: 7.8ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$AmiPqqsL49afFXKENHF2sOGQv6CuUpSnK07dyioW8ffUOyr0GK6De"], ["created_at", "2018-09-14 22:01:16.877360"], ["updated_at", "2018-09-14 22:01:16.877360"], ["session_token", "Uusz7GadSl2yy5YGL_cFyQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:01:16.879455"], ["session_token", "-3lLyyAy75f5wmNkm7WhuQ"], ["id", 60]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/60
+Completed 302 Found in 86ms (ActiveRecord: 1.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$SzwCDTqrN9SwS5tXEHT7R.N4f/wwsZ3ZtxGN4nz85s0tudSMtGbS."], ["created_at", "2018-09-14 22:01:16.975890"], ["updated_at", "2018-09-14 22:01:16.975890"], ["session_token", "71TksdXNKAegu9iSkHZ66A"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hippocrates"], ["password_digest", "$2a$10$s16ZSwRAznyPTWdbyzBfqe65JU2SyzuJTDzkcDFNMA8d1w61PmYCi"], ["created_at", "2018-09-14 22:01:17.062049"], ["updated_at", "2018-09-14 22:01:17.062049"], ["session_token", "mNhgarDDuFcWcAgs9b17hg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$RP57OYmp91etoEwyUDRi0ulANqDGU9xkjgy1A3nzHIlNYaLo63r1m"], ["created_at", "2018-09-14 22:01:17.147790"], ["updated_at", "2018-09-14 22:01:17.147790"], ["session_token", "Tn_CwI_2V3dSmLzk96AHGQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Gorgias"], ["password_digest", "$2a$10$4FoJUJ5HB7mKJvFYooV5JeGG.lfE2CUUty5ouV4YXFO6qnDsjxIL2"], ["created_at", "2018-09-14 22:01:17.233206"], ["updated_at", "2018-09-14 22:01:17.233206"], ["session_token", "rPzDmt-emviVPRT03L4xwA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Arcesilaus"], ["password_digest", "$2a$10$Wu.zADdte.7arJuuuyit3OdRYy/bb1Qp6Q14f8BgpLTVlk5yqVuHS"], ["created_at", "2018-09-14 22:01:17.508604"], ["updated_at", "2018-09-14 22:01:17.508604"], ["session_token", "8YAoeZyKNJtMJpoUDrjZ0g"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:01:17.510680"], ["session_token", "CxcjDco3wAdfhU6KtyRMzw"], ["id", 65]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Chrysippus"], ["password_digest", "$2a$10$sv4UmT.uPf9J4eRZ8j31DenLJFxSGHmqLozk9GdlbTSJJWwN60TM6"], ["created_at", "2018-09-14 22:01:17.611203"], ["updated_at", "2018-09-14 22:01:17.611203"], ["session_token", "Bxzmd08QMygHi63zpYP37A"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (24.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 30ms (Views: 14.8ms | ActiveRecord: 7.9ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$JKczp0zyaB5FZ2i/RtGg6u18w8le4/SKApEhJna.7DS.YLN0ILhh2"], ["created_at", "2018-09-14 22:12:46.701680"], ["updated_at", "2018-09-14 22:12:46.701680"], ["session_token", "qKRf9H1-G-QD9UGVGvhlew"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"67"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 67], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 27ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$LA7bPoC/QNqdjac1s5K6Y..QwaenBbxheDH7TFnkaL.yXVjim9fqO"], ["created_at", "2018-09-14 22:12:46.827273"], ["updated_at", "2018-09-14 22:12:46.827273"], ["session_token", "fcUazEcS3QBR4oW2ZeOmxQ"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:12:46.829645"], ["session_token", "zqvvCZH5k4Y6el_R8EL61Q"], ["id", 68]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/68
+Completed 302 Found in 87ms (ActiveRecord: 2.0ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$LxBV5RLyNGtFIaJ2bNo6VewqqfIOOjYhPkTBreEuUvIOOcw5rEKCO"], ["created_at", "2018-09-14 22:12:46.925764"], ["updated_at", "2018-09-14 22:12:46.925764"], ["session_token", "PjURZI4zKKFVWsyt8rB-oA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$YyPGfLpPzWf.cLIuOXd9J.YIWgaVMCDjs0R/ZXdtvCIaFZoa1Leqm"], ["created_at", "2018-09-14 22:12:47.011530"], ["updated_at", "2018-09-14 22:12:47.011530"], ["session_token", "8X87Kdow8dAppU3-htgeXg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Epicurus"], ["password_digest", "$2a$10$M8kN1pThZt3QaRtveeHj7uQ8R/jrIbSWpVaBISxKW.ELyh.tYeIyG"], ["created_at", "2018-09-14 22:12:47.098086"], ["updated_at", "2018-09-14 22:12:47.098086"], ["session_token", "3V3j6h8Cqzxh3zlUb4bbYg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$j/9ZMQ7k/rs.TXR/3anQV.xLW0AKkL3cDvySztKaBkvu.4s2yGyZm"], ["created_at", "2018-09-14 22:12:47.183141"], ["updated_at", "2018-09-14 22:12:47.183141"], ["session_token", "2f7RDqZhhSOyIR7rDgcVyg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$0YWtdwpkzfUyaJDkx/XwdeGwJfKWHJVZn4aFY6GReWtwXn1qTbSBe"], ["created_at", "2018-09-14 22:12:47.472594"], ["updated_at", "2018-09-14 22:12:47.472594"], ["session_token", "PfaXQPsySdabYZJoHiWAQg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:12:47.474441"], ["session_token", "Js8PAuiNR2vazghVfjJtZg"], ["id", 73]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$vGvUfaibdbyHw27fBpFzuOtn3QImLGpkFe8ds9dH3mcYljbWfauO."], ["created_at", "2018-09-14 22:12:47.572622"], ["updated_at", "2018-09-14 22:12:47.572622"], ["session_token", "Xq3--UaEuvB8qCb6rEOeYg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 29ms (Views: 14.9ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$kEI9yHrcmeNsXvr2wUHdFedcCjwaVTPMTGPQ77qdtMMufLnfgt7ay"], ["created_at", "2018-09-14 22:13:13.949408"], ["updated_at", "2018-09-14 22:13:13.949408"], ["session_token", "gApoyVE14cq9zLJ7IYwesA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"75"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 75], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 25ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$4VqiFuiaX1Eu9JwzXFY34eF3EfpULm8Hdnxd9v39aQKydeOPuLO66"], ["created_at", "2018-09-14 22:13:14.073605"], ["updated_at", "2018-09-14 22:13:14.073605"], ["session_token", "rAzaj1n9judZXXP5jai-Mw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:13:14.075525"], ["session_token", "6-_IG910v80BeHH2rKLwDw"], ["id", 76]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/76
+Completed 302 Found in 87ms (ActiveRecord: 1.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Proclus"], ["password_digest", "$2a$10$BWg7DNyIdBO.2IG2Zn.Hq.WXyyQVp0VnkH8D2DzZKm4V/zhq7OUxW"], ["created_at", "2018-09-14 22:13:14.171314"], ["updated_at", "2018-09-14 22:13:14.171314"], ["session_token", "E0S9Y_JY-6-SjpkbP1vEKA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$qQG3JWADNxGPdZLPzq1dhOgiVlrggC.1Aq2LvGO6OWLPS..uQjMni"], ["created_at", "2018-09-14 22:13:14.258751"], ["updated_at", "2018-09-14 22:13:14.258751"], ["session_token", "XqGD4vme-luqY_X_SSk63g"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$4kZbnOOv13c6S.JUEJfe8uuKV1FTcshJlLn0V8QXQb8shHMPojJDS"], ["created_at", "2018-09-14 22:13:14.350539"], ["updated_at", "2018-09-14 22:13:14.350539"], ["session_token", "ISZlW1NNhEN7Vo4K70NmZg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Parmenides"], ["password_digest", "$2a$10$KIy.BR.zomT8imhfddui4OYE6n4fHmkOuuQcXSnFEH5/ievAddlVO"], ["created_at", "2018-09-14 22:13:14.440686"], ["updated_at", "2018-09-14 22:13:14.440686"], ["session_token", "7TbDZrGHAOXx1JF526-QXg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$dCh28BCRXD5Q0cgeec2/K.s3kWgYeJst5X64b5WkTwkLBtiHKgJri"], ["created_at", "2018-09-14 22:13:14.717486"], ["updated_at", "2018-09-14 22:13:14.717486"], ["session_token", "4vSAFX8UQbqULGItDROB0Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:13:14.719448"], ["session_token", "gQnqtZK4na0geWNon4Do4Q"], ["id", 81]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$oMdACsXHRiVIUSvYyCj1w.R745FmciGoPsm/LzjzQYXxxeTnau5QW"], ["created_at", "2018-09-14 22:13:14.818206"], ["updated_at", "2018-09-14 22:13:14.818206"], ["session_token", "OZBiZ64Mq_j2V75AuZHNjg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 23ms (Views: 7.5ms | ActiveRecord: 7.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$l93e0/AcDOdCbqT1umSOye5avAP2Cfi4kWnsiOkXnUAjtEykHH6TW"], ["created_at", "2018-09-14 22:13:46.098013"], ["updated_at", "2018-09-14 22:13:46.098013"], ["session_token", "XnpPd8iDJB5B70qRXJ1xlQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"83"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 83], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$lApSINqYooZ4QUlCR9Yase5Y34wCFWXdjpcYPIdhI4esu4KFB30Je"], ["created_at", "2018-09-14 22:13:46.199431"], ["updated_at", "2018-09-14 22:13:46.199431"], ["session_token", "HFrdF6AYc2kymudP4_Qg2w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:13:46.201692"], ["session_token", "KCXy_l2rALaSqcA2JXK1Kw"], ["id", 84]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/84
+Completed 302 Found in 90ms (ActiveRecord: 2.1ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$D6goxoVRTe9Xr3yyJy2S5uCrDm9yMNhvETlHq53lOrp01hn9mKWyK"], ["created_at", "2018-09-14 22:13:46.299623"], ["updated_at", "2018-09-14 22:13:46.299623"], ["session_token", "QLm-F0Nf2RT6aSoVSfeRnQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$ElBDxs81ir7uZxagrd3U4.Gn00C4pBE0XJV2lG6iHXepZrir3aCKe"], ["created_at", "2018-09-14 22:13:46.388411"], ["updated_at", "2018-09-14 22:13:46.388411"], ["session_token", "Q9sMbPXLgvXIeZipLI0L6w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Chrysippus"], ["password_digest", "$2a$10$jKMZfLuJS5sRmK.CFL7F.uUrZea7q.DAycEG8422PrFewI0V6aWtS"], ["created_at", "2018-09-14 22:13:46.475529"], ["updated_at", "2018-09-14 22:13:46.475529"], ["session_token", "o8Odv7YZbMEDQrfU8DH-yg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$pJ7hSSiVsngXvlBYWO4.H.s8OJ8QL2cy/H5mh0XppZrVUuxAXIJmi"], ["created_at", "2018-09-14 22:13:46.564238"], ["updated_at", "2018-09-14 22:13:46.564238"], ["session_token", "wGn2vayKAmPyNVFNFpEFHQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$7uwDSed8hJ3o90AuJZP6y.Z8haDLiB.6sD57PyobG89dA.INwnCVK"], ["created_at", "2018-09-14 22:13:46.826045"], ["updated_at", "2018-09-14 22:13:46.826045"], ["session_token", "NNuJ8IZ0vQ5W0UUD2Ei0PA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:13:46.828678"], ["session_token", "bvc7F8EsY2RJwMw3X3zdRQ"], ["id", 89]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$ZtUVRlq5RaQWf8Trrp5PZOMutQjhT/R4zB/pZiGH0kWbxi7hwmrKW"], ["created_at", "2018-09-14 22:13:46.917100"], ["updated_at", "2018-09-14 22:13:46.917100"], ["session_token", "iOxKWn_ijEtPP1YcDgTl_w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 20ms (Views: 6.7ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$mYYFNq7Q3xiXhtxWFCpwVeGdwdf8/k1M10rIJtqCyFLh4YYKGlVuC"], ["created_at", "2018-09-14 22:14:42.837031"], ["updated_at", "2018-09-14 22:14:42.837031"], ["session_token", "dz2DHeBB90RQhjARX2zC9Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"91"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 91], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$MOU2n5H8hoDHEnbceqdUuOMvLx1is2GtSCGjMWKxpOdQJbSlVV6aO"], ["created_at", "2018-09-14 22:14:42.932791"], ["updated_at", "2018-09-14 22:14:42.932791"], ["session_token", "2gXN52FZ8yXzXg-LEqkb6Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:14:42.934708"], ["session_token", "SkqYeAiy_rsVgKlppLkB0g"], ["id", 92]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/92
+Completed 302 Found in 85ms (ActiveRecord: 1.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Proclus"], ["password_digest", "$2a$10$DUHsr1uixRiAggLfP4wCP.YUwWqRDodx2YkTmoZllC0XcxSkowTf6"], ["created_at", "2018-09-14 22:14:43.026251"], ["updated_at", "2018-09-14 22:14:43.026251"], ["session_token", "e9Zo5LEKq61bUU_f9NkEUw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$CQm0hrucHMl5ClmVxP1Fc.GqAM0Isbli47cEhnP6bDZt2lCRkZQCK"], ["created_at", "2018-09-14 22:14:43.111481"], ["updated_at", "2018-09-14 22:14:43.111481"], ["session_token", "4ruZjJv0DvyP7Ig4gLSJQA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$5t09sDbhbwaqYCMJskeo6OCcIedj9fc4L2iP3hX4168vZKnp5WY3y"], ["created_at", "2018-09-14 22:14:43.197434"], ["updated_at", "2018-09-14 22:14:43.197434"], ["session_token", "P0N_NZmQ04Mv4jMod8JpVg"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$2VGxT8WpJ5xrlTuHII4jOO97Mvtfhl7CbZNxUXbxWsO0aEYwiy8km"], ["created_at", "2018-09-14 22:14:43.284486"], ["updated_at", "2018-09-14 22:14:43.284486"], ["session_token", "NDEiKh3p-971hyaPujkNbg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Antisthenes"], ["password_digest", "$2a$10$iNosixbkflM849qZvKs6j.uKbwqvrtLqqc8ctn1Lx4LEgHyJ1EjAa"], ["created_at", "2018-09-14 22:14:43.539360"], ["updated_at", "2018-09-14 22:14:43.539360"], ["session_token", "ccsfKUYTkN1CANRHdsku2A"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:14:43.541241"], ["session_token", "PUdFiGZJZPTlHh7jJs70bg"], ["id", 97]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$zfTO1UMQPwTp3I8opqqYHuQiWvW5F.QgJ8Puy7FBQqJsYRChVjf52"], ["created_at", "2018-09-14 22:14:43.625224"], ["updated_at", "2018-09-14 22:14:43.625224"], ["session_token", "U-mdiqGsoAOXY3BfJ53L6Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 21ms (Views: 6.7ms | ActiveRecord: 7.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Democritus"], ["password_digest", "$2a$10$/pWue049kSydvUeSQnFwK.5URzk2rEKdhRtXRbvrcA158.RTBTVQm"], ["created_at", "2018-09-14 22:16:13.647226"], ["updated_at", "2018-09-14 22:16:13.647226"], ["session_token", "gwuM1UVz8uPdkVOU8UilaQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"99"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 99], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$Pa6Cl/dzs07nJGLwmvFSauGSNjU6Qq3uDeU3y92ennBo30dvLUhpK"], ["created_at", "2018-09-14 22:16:13.743374"], ["updated_at", "2018-09-14 22:16:13.743374"], ["session_token", "9r1WAWJEIOmHYO4mmN_3Cg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:16:13.745309"], ["session_token", "LnAWUMyLh0xImHOfWjhkog"], ["id", 100]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/100
+Completed 302 Found in 86ms (ActiveRecord: 1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Epicurus"], ["password_digest", "$2a$10$X9VyHmlWK24yz.XaPAcbY.Vk2CgXtEei8E20uCKtHn7Xmb6tIrHnu"], ["created_at", "2018-09-14 22:16:13.839149"], ["updated_at", "2018-09-14 22:16:13.839149"], ["session_token", "tM2eo9ekxyI2msS2eypQiQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Gorgias"], ["password_digest", "$2a$10$UxQUA6ALWkXkTbhY95QjIeksmu/9siMJC0RWFzo4DGIDMtX.ESPbi"], ["created_at", "2018-09-14 22:16:13.927891"], ["updated_at", "2018-09-14 22:16:13.927891"], ["session_token", "7hmGoZKGR130adp3tkRbvA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$c1OUyA27Rxgq6KwZn4Gfxuw5fPIQk5rOtgCDhpQPObJFMxd/LVzly"], ["created_at", "2018-09-14 22:16:14.014398"], ["updated_at", "2018-09-14 22:16:14.014398"], ["session_token", "R4sO_d08_W3vGs7c4NeVFA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thucydides"], ["password_digest", "$2a$10$im.cOQz2tYwCG7QIIiczF.3/6gL7U2uogdpPYG4XekJoS5u5sFIMW"], ["created_at", "2018-09-14 22:16:14.100318"], ["updated_at", "2018-09-14 22:16:14.100318"], ["session_token", "vVUXWOylym9XupiuCyrl8g"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Proclus"], ["password_digest", "$2a$10$O5g2.h2PahB42RP9PgyPAu0VfCgALoPb6jB1wM4AZVqSea0KoCz.S"], ["created_at", "2018-09-14 22:16:14.360571"], ["updated_at", "2018-09-14 22:16:14.360571"], ["session_token", "ait0GReZjf6HaT0r5xOkhA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:16:14.362708"], ["session_token", "wSm5AgGFvXQnDlSbnFEDCw"], ["id", 105]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$XOjIuEHqf8WAsTpl8ueuKe9HW4Gi4LZGtIsGwzZO0r5TKjG4FkG7a"], ["created_at", "2018-09-14 22:16:14.451355"], ["updated_at", "2018-09-14 22:16:14.451355"], ["session_token", "KXiBEi2zZO77VzQg7C2vwg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 20ms (Views: 6.7ms | ActiveRecord: 6.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$1fq/2sHxESqv274ShZZCpu9VOTdJdBS8tqC954Y5t8ly.EIE670zO"], ["created_at", "2018-09-14 22:19:29.360711"], ["updated_at", "2018-09-14 22:19:29.360711"], ["session_token", "KpeEZzcl7hiIILhpCkY5og"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"107"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 107], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$5lESlACVJeZ0HWMJinHyu.b598z0AsNKG0fUhlU7kRu4TrSFhm/vy"], ["created_at", "2018-09-14 22:19:29.456128"], ["updated_at", "2018-09-14 22:19:29.456128"], ["session_token", "Un_VROM8GBDuACx0k2A3Wg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:19:29.458584"], ["session_token", "6JW5QkjKI7dpev-QZ_GAuQ"], ["id", 108]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/108
+Completed 302 Found in 86ms (ActiveRecord: 1.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$dMR1Q2zsaHFhiuPK4PBoxuLxXMcueo9mT4sUGWYQ4R3FLg9bbQGgi"], ["created_at", "2018-09-14 22:19:29.549493"], ["updated_at", "2018-09-14 22:19:29.549493"], ["session_token", "crB7s8hXrmrA-JQsuuoM0Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Chrysippus"], ["password_digest", "$2a$10$PQa2novXbQSYMT1JidxxCO2UyUJFHygDWjrCz7KLmGx/PdgKCSvIW"], ["created_at", "2018-09-14 22:19:29.634917"], ["updated_at", "2018-09-14 22:19:29.634917"], ["session_token", "fAkVEKGKv9LBLt9cE0z-mw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Parmenides"], ["password_digest", "$2a$10$AxU/DOP41ETGPJgJJ61s7OzSIW2ns9CBAgjsrZ6alQiSj4Bqk1Ffe"], ["created_at", "2018-09-14 22:19:29.721327"], ["updated_at", "2018-09-14 22:19:29.721327"], ["session_token", "ROwf6qk_KJeLafp4_TFaJQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hippocrates"], ["password_digest", "$2a$10$i7H4xuIJ.V/oCo7mGLmwKepJPtgVJFdZ/Q2pAPcFDhD41NyZfROja"], ["created_at", "2018-09-14 22:19:29.809012"], ["updated_at", "2018-09-14 22:19:29.809012"], ["session_token", "nqAAyrz_rKK9IYgwOErhMw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$iWNkoLAeQ1CBWA3RtrzxSeR61BD3TSHK6Alvgje41xanDCb0X2.v6"], ["created_at", "2018-09-14 22:19:30.060624"], ["updated_at", "2018-09-14 22:19:30.060624"], ["session_token", "mhG5nL1glGg_9Bwva6Fszw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:19:30.062448"], ["session_token", "worKYHjPlHVY8I7sVod1gw"], ["id", 113]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$DjCdnKes5PH3/mIOYXJd.OfhMkBbMEPjG/3i0fTWN.tq80wFvGr72"], ["created_at", "2018-09-14 22:19:30.146576"], ["updated_at", "2018-09-14 22:19:30.146576"], ["session_token", "4pB3vOXMngVRfYi-_AYvsA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 19ms (Views: 6.1ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thucydides"], ["password_digest", "$2a$10$YBbb58Md3qbO41/xc/QCneLnBGsbZaIqkOUS2J84zd3yKLq0qLwY."], ["created_at", "2018-09-14 22:19:49.517541"], ["updated_at", "2018-09-14 22:19:49.517541"], ["session_token", "gBV0uumcemdWx3v1uLzB6Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"115"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 115], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$qXDSbaDmclCOwPbNOQxXFutsHzKKBSyp8eO3nKU2pTMwPY7IqlWTa"], ["created_at", "2018-09-14 22:19:49.613311"], ["updated_at", "2018-09-14 22:19:49.613311"], ["session_token", "2M2kp4m_Vjgu5s36YL8-GQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:19:49.615286"], ["session_token", "CCodfVqUWXBi1y0ftBgXnQ"], ["id", 116]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/116
+Completed 302 Found in 85ms (ActiveRecord: 1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$i581xqkN4KDkD2PxiErgY.ZmxDApw6YQHn1IrUTq6ux9nrZtUzKSO"], ["created_at", "2018-09-14 22:19:49.703827"], ["updated_at", "2018-09-14 22:19:49.703827"], ["session_token", "UA2xTMVwBpgWMa1YeP7Usw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$I9LChTuHhM6EYeA44cvUkeOYGkZRPrLU7coT/buGygdICm0UX3if6"], ["created_at", "2018-09-14 22:19:49.789009"], ["updated_at", "2018-09-14 22:19:49.789009"], ["session_token", "2986C-L8Ef3lHBx7B2c7KA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Hippocrates"], ["password_digest", "$2a$10$lwYH.9pEzPbXsZH2QsZU2OfeuZ1Uq3HmaVZhvYP6ISc3xZGjRl3Ni"], ["created_at", "2018-09-14 22:19:49.875526"], ["updated_at", "2018-09-14 22:19:49.875526"], ["session_token", "Rj5BRMwpLdLk6MPB9T1nXQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$zHvDtU6oBJQCeW5jDNKxbuwLP3mXCSx7qsabJMDEzlAU0SIj7WFrq"], ["created_at", "2018-09-14 22:19:49.961865"], ["updated_at", "2018-09-14 22:19:49.961865"], ["session_token", "M5RxowvQyVkdS083FEk1Gg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Heraclitus"], ["password_digest", "$2a$10$HPJVucJq/RMM41Jy7m6k3OdoEXONGsX3Emolr/GmsCmFpbiQqJcMu"], ["created_at", "2018-09-14 22:19:50.215348"], ["updated_at", "2018-09-14 22:19:50.215348"], ["session_token", "7qdBI8V5MBSEFWQsZsjR5Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:19:50.217630"], ["session_token", "JB3HXtrahp2f-leydARVxA"], ["id", 121]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$44zlX/dMSW9wcPrtQyZgXO4Jh9FOoTGAmf6bQ6OXjBPQdvKq1/5HG"], ["created_at", "2018-09-14 22:19:50.303126"], ["updated_at", "2018-09-14 22:19:50.303126"], ["session_token", "uz6meZxY0wU8vjzmncIUGg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 48ms (Views: 33.2ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Gorgias"], ["password_digest", "$2a$10$DfhNOFl.lgI7RV.x4BFpxu0h87TpHbXAjHWEvOWpb3tfZmPGJnz76"], ["created_at", "2018-09-14 22:25:08.833645"], ["updated_at", "2018-09-14 22:25:08.833645"], ["session_token", "e4yhMKlo6OKb0X9g4qGJ9w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"123"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 123], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 25ms (Views: 2.4ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$73uKUayxi3XNw0zpLYN73eI41Vhvpvj1JS5rSTmh5ARxQYdIZrv/u"], ["created_at", "2018-09-14 22:25:08.957630"], ["updated_at", "2018-09-14 22:25:08.957630"], ["session_token", "yMtul50iXHZcDt_61xyS-g"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:25:08.959595"], ["session_token", "gZ2zHbefNiaeeKEH0lbf1A"], ["id", 124]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/124
+Completed 302 Found in 87ms (ActiveRecord: 1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$WxvwQuqnoo.SHvPrHzY6MuU3WKwZVzfRKVah7Hui79X9oUDWIxg22"], ["created_at", "2018-09-14 22:25:09.061754"], ["updated_at", "2018-09-14 22:25:09.061754"], ["session_token", "aQ8JrVcuP87ZRC_WLZ7apA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Heraclitus"], ["password_digest", "$2a$10$y8K.pFAhkEHpTcJ5ZyI39.tIX0pAnnsgemQcxMJgkN5Xq2aAs5AI2"], ["created_at", "2018-09-14 22:25:09.148949"], ["updated_at", "2018-09-14 22:25:09.148949"], ["session_token", "184NjIo-IPsl4HZq2MSrCg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Diogenes"], ["password_digest", "$2a$10$wglbOqKNJRos4kBbUqOWse8qjDHNRkKDA8kgfjTtH5VYyAN2hcTC."], ["created_at", "2018-09-14 22:25:09.235087"], ["updated_at", "2018-09-14 22:25:09.235087"], ["session_token", "JdQ4cccG5TWVgnWG5FarVA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$uMe76lnnWR9iNjF.LjRm3expQBxex3IEArwSxjrZkHAERtjrSQtaq"], ["created_at", "2018-09-14 22:25:09.323064"], ["updated_at", "2018-09-14 22:25:09.323064"], ["session_token", "fg7e_3Fd6WL4ZZ6ckBPAsA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$Dc44/JX5cjNvORiTfoQ1.eY.4RtY7qEh/UWYl6pWAR4D3L/AEUrYe"], ["created_at", "2018-09-14 22:25:09.600048"], ["updated_at", "2018-09-14 22:25:09.600048"], ["session_token", "2IdCfUW8JATU7oKsde1P3Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:25:09.602638"], ["session_token", "lKxSaMimh082536KI7gX3w"], ["id", 129]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Diogenes"], ["password_digest", "$2a$10$RhPxjJLUmIrlcm2ph0oGvuijCmxbpf60SJ85zefHcdQvGkedVK0rS"], ["created_at", "2018-09-14 22:25:09.688312"], ["updated_at", "2018-09-14 22:25:09.688312"], ["session_token", "gb2DBgYk7W26E_jJvPBUmA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 45ms (Views: 25.6ms | ActiveRecord: 10.8ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$c85qPW1pmyQbZAobhg1AB.IeyC2EgvlWajCmSlxa55/JSke5xwGYO"], ["created_at", "2018-09-14 22:27:56.326309"], ["updated_at", "2018-09-14 22:27:56.326309"], ["session_token", "ToSjw1FWcpWs-KkDhEw1Sg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"131"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 131], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 28ms (Views: 2.6ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$3xjTPjHOZjl33ZIPJR2Fu.Hma/3M5l837/T3WPDnVtut/3j5tB4s."], ["created_at", "2018-09-14 22:27:56.452674"], ["updated_at", "2018-09-14 22:27:56.452674"], ["session_token", "sxCoFBot6MvqfwkyZVuNPA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:27:56.454567"], ["session_token", "uwRsVrUuDfikD9goV6bN0A"], ["id", 132]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/132
+Completed 302 Found in 87ms (ActiveRecord: 1.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:27:56 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 886ms (Views: 877.8ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:27:57 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:27:57 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$1Eq7JVxvRlRcomeNZ5WBXeZKhtTe3JkcafzdejlY6vA2A7JFHMfFy"], ["created_at", "2018-09-14 22:27:57.624408"], ["updated_at", "2018-09-14 22:27:57.624408"], ["session_token", "YVz6_aL943Zcw2wkytk_aw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$hiFBvgedkGJK89MTTC.XS.GGfIKu/TjO.n9OvFJTDnZzgtKlMgvR."], ["created_at", "2018-09-14 22:27:57.710036"], ["updated_at", "2018-09-14 22:27:57.710036"], ["session_token", "DsSQe37FLW8EwfeUSJZXvg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$5mJqVTPAfP6FVq7rp43rRepV52OQimNyq9.f.TG1bVH0NmUgTWVfC"], ["created_at", "2018-09-14 22:27:57.798182"], ["updated_at", "2018-09-14 22:27:57.798182"], ["session_token", "-3dxtx058NP4gjzgfSs2-Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$2wkNLZRQfZD3EXC4eIZLJuZ4u5az7354Bdv4DgV8RlJig.uiwIA3q"], ["created_at", "2018-09-14 22:27:57.891675"], ["updated_at", "2018-09-14 22:27:57.891675"], ["session_token", "7LOhW56ConzH91b-hSXLDg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Epicurus"], ["password_digest", "$2a$10$ZP1hmrQb3osY0RwibQDojOgFodxOQWpavKXQDySRsgoZAu3N27Z5."], ["created_at", "2018-09-14 22:27:58.163873"], ["updated_at", "2018-09-14 22:27:58.163873"], ["session_token", "nwRogPyPvmSBocYDl2bmCQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:27:58.166163"], ["session_token", "hpGdxiCn3h5mj-rMGzokng"], ["id", 137]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$fL8AqKN7l71hKvoN6tXxEOXA0qYnpzg0jFvSeS0Y9ol6ycHcdE89O"], ["created_at", "2018-09-14 22:27:58.254074"], ["updated_at", "2018-09-14 22:27:58.254074"], ["session_token", "ociKm4DttFzKRmSnYQOlCQ"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 23ms (Views: 7.3ms | ActiveRecord: 7.5ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$zIOzq3YRD.50wJHHCLMguO6stg2askJPz2Ud5dZeKPRyqgoqzruOi"], ["created_at", "2018-09-14 22:28:40.811841"], ["updated_at", "2018-09-14 22:28:40.811841"], ["session_token", "_NQcm97mdEH0iPqRKSlZWw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"139"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 139], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$lD9m6eT1bRGHwkbn82vecOJPrHZFPslXhcyRQF8ok3rr83u.U1aTW"], ["created_at", "2018-09-14 22:28:40.912524"], ["updated_at", "2018-09-14 22:28:40.912524"], ["session_token", "0ZsxJ2MAAD19NVnAVrDfug"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:28:40.914866"], ["session_token", "qLLFvff2aIYkVbI07Z-yUQ"], ["id", 140]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/140
+Completed 302 Found in 89ms (ActiveRecord: 2.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:28:40 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 277ms (Views: 267.7ms | ActiveRecord: 0.7ms)
+  [1m[35m (3.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:28:41 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:28:41 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$6AsFjbpo8oU6g4mpJ6v67e/4.RsYodS8iSrtyNkKIZNTU2/qQQeAa"], ["created_at", "2018-09-14 22:28:41.351431"], ["updated_at", "2018-09-14 22:28:41.351431"], ["session_token", "2lCaaVGy3eSvZF_hAJj4KQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$XRrUmgEU2AbKFVruem328OkjwrAjpj0Kpdf5QT0iQMZ2onvbb8GVC"], ["created_at", "2018-09-14 22:28:41.441881"], ["updated_at", "2018-09-14 22:28:41.441881"], ["session_token", "ecoBAyv1DmG4vxdyzp6bPA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$HGjepyOxE1WoLfZtTjLBBe1hB3CvLlATNubY8IxlCrwen5jGSeSQe"], ["created_at", "2018-09-14 22:28:41.528587"], ["updated_at", "2018-09-14 22:28:41.528587"], ["session_token", "lPp8AtIugm3GeYWLCpo0MQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Heraclitus"], ["password_digest", "$2a$10$y8Cp/vpqhUbam9/sDmrZYu.D0oZXDLEzyk8yKBmWQpACUdUtqR6IW"], ["created_at", "2018-09-14 22:28:41.615323"], ["updated_at", "2018-09-14 22:28:41.615323"], ["session_token", "dhrJZINxOwyjrxd7TqCvcg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$UlBC5ap6.wx6YC86KvPlyeBOdzS2eyPeKFPxIEF8oQiaTvyU9B8XS"], ["created_at", "2018-09-14 22:28:41.874536"], ["updated_at", "2018-09-14 22:28:41.874536"], ["session_token", "TQgjyE74C81ryJa3VbjTlg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:28:41.876692"], ["session_token", "zZeMs1koWx01JLKxKL3qlA"], ["id", 145]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Posidonius"], ["password_digest", "$2a$10$CfdOjVG71ecOfKlqX5PHSOr.riVjT4wuZaxS8Lllep2SD0YfxDEa."], ["created_at", "2018-09-14 22:28:41.964859"], ["updated_at", "2018-09-14 22:28:41.964859"], ["session_token", "f0TbFVpySDf-jINiJRW0zg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 42ms (Views: 28.3ms | ActiveRecord: 6.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Arcesilaus"], ["password_digest", "$2a$10$610Eux.uINVKmmFWGDiIbuoWrn22fSzheLgL3BKKkQNZ.SYXd3LVW"], ["created_at", "2018-09-14 22:29:19.234757"], ["updated_at", "2018-09-14 22:29:19.234757"], ["session_token", "MNESa4XXS1K6aC284KFDkQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"147"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 147], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 23ms (Views: 2.4ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$cGuQFH1uhsC2qilWmnceUegYSUGVECqg5kjJ.ABT0KXgzQPt0Urdq"], ["created_at", "2018-09-14 22:29:19.357471"], ["updated_at", "2018-09-14 22:29:19.357471"], ["session_token", "FGc8U5LpaME6KFh9Ui-hMA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:29:19.360159"], ["session_token", "nc7dGxvJ7J17TrCsdQSmdA"], ["id", 148]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/148
+Completed 302 Found in 88ms (ActiveRecord: 2.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (12.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 357ms (Views: 349.0ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RAgiNPukvca9Z1MTHhc3mXhm3zqpd6FSxw52Pqc8fnaa3CknT7bSMeuAKFu28FhaD5YtQkfDkWh8QDeYl8pt5A==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$2oJy1y2g5.rIR9lXPkmHsu04gTb94RPtkMvvq6unDPXR3Rs9iJmZa"], ["created_at", "2018-09-14 22:29:19.864797"], ["updated_at", "2018-09-14 22:29:19.864797"], ["session_token", "Os2xHKg3ZrUsh0e5WVL0wg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:29:19.867475"], ["session_token", "37_jAwqo8tn2CzX3perp_A"], ["id", 149]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/149
+Completed 302 Found in 98ms (ActiveRecord: 2.0ms)
+Started GET "/users/149" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"149"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 149], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 149], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Yw90x9w1wzfRfyOaYLUPCdCZ2RPe0saRDikV6nhnJ84qWZvj/9i3ltUhkPhzAOlSG2d2Ip0q0zeSo7NRt8bQIw==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$vCebIMwWO.vJHO5kZ.2n/u3Y5sGqSUp.X9WbP3QSFtVCyRc2oUeGu"], ["created_at", "2018-09-14 22:29:19.984901"], ["updated_at", "2018-09-14 22:29:19.984901"], ["session_token", "oUeiub97LgeyYBamrOwNXw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:29:19.986790"], ["session_token", "Q_HIoKmKU7n4lacU-Eou0A"], ["id", 150]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/150
+Completed 302 Found in 87ms (ActiveRecord: 1.7ms)
+Started GET "/users/150" for 127.0.0.1 at 2018-09-14 15:29:19 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"150"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 150], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 150], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Democritus"], ["password_digest", "$2a$10$DF/alukIFKizCdrDYoTIFee.AKey41KbkqeTtKAynToF//mvjsD2y"], ["created_at", "2018-09-14 22:29:20.079461"], ["updated_at", "2018-09-14 22:29:20.079461"], ["session_token", "SMrXLeZ2PfaWSI3IkQOmHQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thucydides"], ["password_digest", "$2a$10$eFFgCkLD4b/zR47sIAyF7OGrkYx4XNFNQHc9t9i1w02U/B3eRcmvu"], ["created_at", "2018-09-14 22:29:20.165700"], ["updated_at", "2018-09-14 22:29:20.165700"], ["session_token", "1bFlSxQUSeM9ezOP1G5y5A"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$FLMqslgWe/Uj/0QwO7oFKOsyAscSU1i10Z5qaNWwFrl9HGch/RMSS"], ["created_at", "2018-09-14 22:29:20.251963"], ["updated_at", "2018-09-14 22:29:20.251963"], ["session_token", "fdS4qdOaz408iHADKHXYTw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$/wAHPSmx/KVuvyzEIZL9k.H79o9sEWbxMuyrKiHk.l5yF6m/7VS3q"], ["created_at", "2018-09-14 22:29:20.337123"], ["updated_at", "2018-09-14 22:29:20.337123"], ["session_token", "5NW40miFfTckQERZwGgOWg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thucydides"], ["password_digest", "$2a$10$kJby9MS3.yF8thBZS48i5uqIjDQ8txCAWjP.zOeqScV52nuOAop0."], ["created_at", "2018-09-14 22:29:20.608901"], ["updated_at", "2018-09-14 22:29:20.608901"], ["session_token", "yTqdL8xFZIS5C012_5pteQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:29:20.610817"], ["session_token", "b6DvNxWpWs4_yMACk4_AnQ"], ["id", 155]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Epicurus"], ["password_digest", "$2a$10$OGEptvndq9W0.Po/n4IPMulI7dPWfE51GAFryyf6t6zmEHX6MgbUK"], ["created_at", "2018-09-14 22:29:20.695185"], ["updated_at", "2018-09-14 22:29:20.695185"], ["session_token", "e-H5N10cmNSDpyeYnZlU5A"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 29ms (Views: 15.1ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Antisthenes"], ["password_digest", "$2a$10$IL5U.OOqWarZmlr/olAyjepWI8xTDshvF4dv8t2oUqezUhTmBlpIe"], ["created_at", "2018-09-14 22:30:25.704435"], ["updated_at", "2018-09-14 22:30:25.704435"], ["session_token", "gTastkniHgMDHikPCkcN8w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"157"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 157], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 22ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$yq.lKx7A2Cgh70COUvJyZeKcTYiYhdto5EzaZGzklMFySOFDmK7Sa"], ["created_at", "2018-09-14 22:30:25.825519"], ["updated_at", "2018-09-14 22:30:25.825519"], ["session_token", "Qui6DhlvO4IYYDUXrr9fZQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:30:25.828798"], ["session_token", "3uLBjjcLXrof4Drt6YaOWg"], ["id", 158]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/158
+Completed 302 Found in 88ms (ActiveRecord: 2.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:30:25 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 341ms (Views: 330.7ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:30:26 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.7ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:30:26 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"y39K6a0xk/4YfbSUXfnZoGg0lzWuiJvAc0UWxIG4BqVCTZaZg6MaCNbmr1RzvVo8n3S03UNXaDxv/WaOyR+Ynw==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$NdSj/JBAqo20AgJUL2fZmuXcsHrFFL/acnlztaySkntPNWIRJDJX."], ["created_at", "2018-09-14 22:30:26.304412"], ["updated_at", "2018-09-14 22:30:26.304412"], ["session_token", "vTB5PJjGSSHixUUJPjyzaw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:30:26.307138"], ["session_token", "Ci1VRQ8iWavFe8C_5tAtNQ"], ["id", 159]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/159
+Completed 302 Found in 96ms (ActiveRecord: 2.1ms)
+Started GET "/users/159" for 127.0.0.1 at 2018-09-14 15:30:26 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"159"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 159], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 159], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:30:26 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:30:26 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Pt9aFXZAnj+HyR4EnfJzcfFEs/NSrl7vv2Vx9hZUufOnyIhxlihRcfKny8RCIy83FiQcNHlXe+SlLBwS8wGzBw==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$6ohLBuM6qVMIFJPQ1NaO6O/pmGaowH0mjtPLs8XpzVubyYpFWJVXu"], ["created_at", "2018-09-14 22:30:26.462862"], ["updated_at", "2018-09-14 22:30:26.462862"], ["session_token", "BZbjds0otfobg40tG5AmAA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:30:26.464769"], ["session_token", "_-BRC2wtcNduvwqDKruq1Q"], ["id", 160]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/160
+Completed 302 Found in 85ms (ActiveRecord: 1.7ms)
+Started GET "/users/160" for 127.0.0.1 at 2018-09-14 15:30:26 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"160"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 160], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 160], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$huXRjTR5kfsFcqzjE36mbOwg/kHH/oTgcyOwdBwI7F9K9aRQPiiKi"], ["created_at", "2018-09-14 22:30:26.556986"], ["updated_at", "2018-09-14 22:30:26.556986"], ["session_token", "gp1YaWvb7gDSGJxIYPJClA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$muMj4WVsJQ8fEG5jajsWweNnxnu3hv/Ru9oegdLHbkkpgJwkEhMJe"], ["created_at", "2018-09-14 22:30:26.642552"], ["updated_at", "2018-09-14 22:30:26.642552"], ["session_token", "JGEYIvJ02o3hnvjjqq8YPg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$MQOMyh.Oo4rRqkmiHd28BuXJt8lwHKEoF/LC7bqzxcsZHb3/yXWB."], ["created_at", "2018-09-14 22:30:26.728711"], ["updated_at", "2018-09-14 22:30:26.728711"], ["session_token", "t2sVxF80XN3niLX-ajsZFA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Archimedes"], ["password_digest", "$2a$10$XLIefXDXuf4Hju0Fu5O85enyHgyMwj2kx3YqEn9hu1D6bG6dPKvUW"], ["created_at", "2018-09-14 22:30:26.813727"], ["updated_at", "2018-09-14 22:30:26.813727"], ["session_token", "9HYVlE_CveZMRZ6R8K_dCw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$QljolJEjRlNDxCXqH8wbSuauB2Juq1nlKMalrHmkNUxyv2TkwBufS"], ["created_at", "2018-09-14 22:30:27.089445"], ["updated_at", "2018-09-14 22:30:27.089445"], ["session_token", "LfUHX9e7KyrsFSqeRq2bXw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:30:27.091345"], ["session_token", "XF1yDSb3SoyPxsb_Yt48iQ"], ["id", 165]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Parmenides"], ["password_digest", "$2a$10$LKs9Brmz6Hz1QZL/1fyBs.VS9ycs5icMMYdmyvYZwVvqIgjlpPrBu"], ["created_at", "2018-09-14 22:30:27.176380"], ["updated_at", "2018-09-14 22:30:27.176380"], ["session_token", "ObqR9iU8dxvfzOO9oCMSNw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 38ms (Views: 15.7ms | ActiveRecord: 12.1ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$1WJWZuekSr1f9UA0bk/bJO23XkA8yO2lex7cGa7adHG4i8JuczwwS"], ["created_at", "2018-09-14 22:33:04.860799"], ["updated_at", "2018-09-14 22:33:04.860799"], ["session_token", "X3GKCBvg9c8jt00li388Tg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"167"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 167], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 31ms (Views: 4.9ms | ActiveRecord: 0.9ms)
+  [1m[35m (3.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$TgEhcJXapqyI0zeU/vBhYO9dkzx36X9CjgWcrAYfAaizEOjHRxpO2"], ["created_at", "2018-09-14 22:33:05.002519"], ["updated_at", "2018-09-14 22:33:05.002519"], ["session_token", "yGZXUay0ppkL86wVcZ9p5Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:05.004706"], ["session_token", "eZqJDylm001EupKIa4LAZQ"], ["id", 168]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to 
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 1.9ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:05 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (11.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 346ms (Views: 337.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:05 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:33:05 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"liIXkFZKYEWWamzNhm5+vyrtgKwolGF2642Tx1q7oIsw9XuDTtLO78wdPG7VWckD6XG8Dn7C4NaklzgoPL+mtA==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$.NlSyqXxHIXvwSUUN/8Q8.tiaUQwPwRVvAfXVqmMRCL2hruDJkz3a"], ["created_at", "2018-09-14 22:33:05.486929"], ["updated_at", "2018-09-14 22:33:05.486929"], ["session_token", "tQnM16AzsfXgwQwUpSQFtQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:05.489449"], ["session_token", "n0o3vlH17NUA4E-Ht7CGWw"], ["id", 169]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to 
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 2.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:05 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:33:05 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"q+o+Zxor1LOc/lP/uS3KXe8AAwJrflej2GqEK+Uu0XDlqsxUCnnQgnCNWV/Yy6+GaXFNlHppy9ELwSqiUa8Ewg==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$KN1b3EbWQHSgH7c9i1L..etOKi5K1Co9jVHUitxc0DSvWRGSuYZsa"], ["created_at", "2018-09-14 22:33:05.594399"], ["updated_at", "2018-09-14 22:33:05.594399"], ["session_token", "jlERQF2x10KRGD4lXzUdOQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:05.596335"], ["session_token", "a9nsf_iJXi-zPk1DThQr9w"], ["id", 170]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to 
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 1.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plutarch"], ["password_digest", "$2a$10$lkE2tac.CSkZWw9QSw3pOuVqC4jE2MYy411d.QIC7pNyiXgD3qC66"], ["created_at", "2018-09-14 22:33:05.690818"], ["updated_at", "2018-09-14 22:33:05.690818"], ["session_token", "uM67gqUnUo-9nmUot6A1uQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Zeno of Elea"], ["password_digest", "$2a$10$b7m87ZFWLMFAn4ke8FW6QumN9FoPJ.rFy1YRSJATIX3YxlWbDuzGK"], ["created_at", "2018-09-14 22:33:05.775454"], ["updated_at", "2018-09-14 22:33:05.775454"], ["session_token", "V5G7T9V4jpROJ-JjJuPmWw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Pythagoras"], ["password_digest", "$2a$10$uCHMmyIkf/kXQ9ZWjYEBxeG1z3bLZ0NlQqDq0mKbLTZeKipMoyWPK"], ["created_at", "2018-09-14 22:33:05.861444"], ["updated_at", "2018-09-14 22:33:05.861444"], ["session_token", "sj87YEPy11fL_redEWnDlw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Diogenes"], ["password_digest", "$2a$10$uwKU4Nil3B12UBMLYdI9Tu/2tbIZP9lTmQ.02RGesHO4OeDdqsE1u"], ["created_at", "2018-09-14 22:33:05.947873"], ["updated_at", "2018-09-14 22:33:05.947873"], ["session_token", "gIcL5467OCoMQb790Xmzpg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Thucydides"], ["password_digest", "$2a$10$vgynJbhTj7tlk0PROSH6heN9wPTXix9PbQYFY9d4l8TIG2CK3CAcC"], ["created_at", "2018-09-14 22:33:06.217984"], ["updated_at", "2018-09-14 22:33:06.217984"], ["session_token", "9sbtFEh4YmqtwtW1Dsej5Q"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:06.219911"], ["session_token", "ARZk6bpSFRGJaf1NIb7HSg"], ["id", 175]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$ZRkOPxKMqhV0a3W5SoxetOdQOUIgGbOEoBl.4AabY9g1laC54ez2."], ["created_at", "2018-09-14 22:33:06.322357"], ["updated_at", "2018-09-14 22:33:06.322357"], ["session_token", "ckKib1XbC4z5hHZfQXoTAA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 39ms (Views: 16.4ms | ActiveRecord: 9.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Pythagoras"], ["password_digest", "$2a$10$O7fktUDP4bsFAXCrSDxwHuSgFhlhVre7onCvOs.k6BNiCYytZpn8G"], ["created_at", "2018-09-14 22:33:16.421812"], ["updated_at", "2018-09-14 22:33:16.421812"], ["session_token", "Js3xCfhK_Brnbd8tN5c7zA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"177"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 177], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$J3z8KZ0j.qt3A8Q63YR1IOfHrKbaeJ.Qs1psYsEPvp3lFoOZcxPZa"], ["created_at", "2018-09-14 22:33:16.520063"], ["updated_at", "2018-09-14 22:33:16.520063"], ["session_token", "S0Qme9YhgcsBW194qWD9FA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:16.522241"], ["session_token", "pcKLTFYr1OLW7hD53Iifyw"], ["id", 178]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/178
+Completed 302 Found in 88ms (ActiveRecord: 1.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:16 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 241ms (Views: 233.0ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:16 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:33:16 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RLQ4i9XieZIklgLW3ZUUzta1P4JmC+utykfIFtJpz4WbWKm21+q+IjqUZ3wwmyvs8nW1X1fjWqP/HMO813ENFg==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$D.IvSutnxJBruiDhpuGgQeG4E8b/pBycKDHuGreDOyhz0O2LnywWu"], ["created_at", "2018-09-14 22:33:16.886975"], ["updated_at", "2018-09-14 22:33:16.886975"], ["session_token", "EBoLbhzB_Rtrib1EvJuztA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:16.889133"], ["session_token", "8Mu5QGogGkI8O3oMYaRxrw"], ["id", 179]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/179
+Completed 302 Found in 97ms (ActiveRecord: 1.9ms)
+Started GET "/users/179" for 127.0.0.1 at 2018-09-14 15:33:16 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"179"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 179], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 179], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:16 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:33:16 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"VBXaT9B4r69sgGJ5mpY7GUfqYJq9dZlDjiYL7Kt0DwIEq+KPArg3s0LmpLjpLXuBhvt1k2HnEM1KvX2bz/NK9w==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$w.va6y0O5uMCg0T/9HEQQuva8i4v5HH.6njQHHkUnBzFBeCyE8Bu2"], ["created_at", "2018-09-14 22:33:17.059004"], ["updated_at", "2018-09-14 22:33:17.059004"], ["session_token", "bmTFChf9fApTxpxWN3f5CQ"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:17.061171"], ["session_token", "g_syJawePFSFrI314AUWnw"], ["id", 180]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/180
+Completed 302 Found in 85ms (ActiveRecord: 1.8ms)
+Started GET "/users/180" for 127.0.0.1 at 2018-09-14 15:33:17 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"180"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 180], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 180], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Democritus"], ["password_digest", "$2a$10$HX0w3xOU7AYuKwplrQVv/eS8GjQcSzRc6NWvg4gNgjyCPZcD0Du3W"], ["created_at", "2018-09-14 22:33:17.154877"], ["updated_at", "2018-09-14 22:33:17.154877"], ["session_token", "7-LAdv5FlCBSqkdHspSbrw"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Solon"], ["password_digest", "$2a$10$W3gjX0FOvSPYo7ixIkg9euMQCQvWbLFuWo03.g.gsatHj7as8//X6"], ["created_at", "2018-09-14 22:33:17.242827"], ["updated_at", "2018-09-14 22:33:17.242827"], ["session_token", "9caRFfWCNX_LBjTKLN5yUg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Gorgias"], ["password_digest", "$2a$10$x/QBWM1fV815xQpSJB.kT.Wc7jIk9APSXasd0g0Pl5xDK7ySI4szO"], ["created_at", "2018-09-14 22:33:17.329015"], ["updated_at", "2018-09-14 22:33:17.329015"], ["session_token", "JFPjOnbr9peRUkuMJnnxMA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Arcesilaus"], ["password_digest", "$2a$10$9vW6xJb9f7V6VNd.Byg5EeKbTSj0d50ICqNn4dSOByWUnWNtdX/5a"], ["created_at", "2018-09-14 22:33:17.413623"], ["updated_at", "2018-09-14 22:33:17.413623"], ["session_token", "khw0T5fPT5n4s4jsHbWY8A"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Diogenes"], ["password_digest", "$2a$10$h.cSmanbye6TMYeiZM3EuuHo5GQYMcv17C.Sz1DJlAhnk8.MtNVh."], ["created_at", "2018-09-14 22:33:17.668881"], ["updated_at", "2018-09-14 22:33:17.668881"], ["session_token", "nF5V50ZR2SzOmcnzEaIChw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:17.671165"], ["session_token", "tdkvQqUS1ULogmxSdglHFg"], ["id", 185]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Plato"], ["password_digest", "$2a$10$9lGMeTNszBm3.jjBNpy1.OaC5hRLX0kdDgaHTcV1Du5LTdL4KsfUq"], ["created_at", "2018-09-14 22:33:17.755436"], ["updated_at", "2018-09-14 22:33:17.755436"], ["session_token", "WITtYiKKORzluQi0NkCRGA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 21ms (Views: 6.6ms | ActiveRecord: 7.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$GSwm1uU1sOg37XSkZqWGkeayekDKta3MsfOb3PQqLZzyoVmxkPT/."], ["created_at", "2018-09-14 22:33:56.911585"], ["updated_at", "2018-09-14 22:33:56.911585"], ["session_token", "YZLyKlh9E55-9GDxn0hxcg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"187"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 187], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "username"=>"spiderman"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "spiderman"], ["password_digest", "$2a$10$aZcRNqN48SPs6kP0CgVbMe21YchlhBpWiih8/9DGMmE46/VIITMve"], ["created_at", "2018-09-14 22:33:57.009008"], ["updated_at", "2018-09-14 22:33:57.009008"], ["session_token", "43mMrLyisrIVRSjrxEFkIw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:57.011186"], ["session_token", "eyLltsx-HuH0sXKuveLJtQ"], ["id", 188]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/users/188
+Completed 302 Found in 87ms (ActiveRecord: 1.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "spiderman"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 397ms (Views: 389.0ms | ActiveRecord: 0.5ms)
+  [1m[35m (9.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"3x/Ok38FSBlA7ycRoal1C7PsJPJqJPBLl+UdAmevix4SC5nTNxGwcz/odgOACp7RCbWzviQH2eH2pQQi4gaQJA==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$DSIcPrXT/wkwyy0MQ1vyau6T7fVfTrWfZ77qmCRNmhGJfRVt4XP.m"], ["created_at", "2018-09-14 22:33:57.544155"], ["updated_at", "2018-09-14 22:33:57.544155"], ["session_token", "BAQDx8f22Umi2gtXI53Avg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:57.546405"], ["session_token", "r8g487elIJHpzqK31WplBg"], ["id", 189]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/189
+Completed 302 Found in 98ms (ActiveRecord: 2.2ms)
+Started GET "/users/189" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"189"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 189], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 189], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+Started POST "/users" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"6EBnwsiKqJoIbTummPItXkXWP99BWyLu28NNfxUHSNmcwGi69GeXqNzBJH7PoOTcUdbM1mLPk46h4YsSApCrFA==", "user"=>{"username"=>"Socrates", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Socrates"], ["password_digest", "$2a$10$eUa3UP91GUjhD5PFhnpz4Oxik8R2TCWzbF1CB6uVMzna/j7HZsaoW"], ["created_at", "2018-09-14 22:33:57.651591"], ["updated_at", "2018-09-14 22:33:57.651591"], ["session_token", "vlozbELPA4Fvwtxgtk_J3g"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:57.654198"], ["session_token", "TwwDizrOC1oJ3ydVN_piaw"], ["id", 190]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/190
+Completed 302 Found in 88ms (ActiveRecord: 2.1ms)
+Started GET "/users/190" for 127.0.0.1 at 2018-09-14 15:33:57 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"190"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 190], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 190], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Anaxagoras"], ["password_digest", "$2a$10$oPfqdmnJk643hEKtt6Z7Iuvi63EZqW3q9SJTKP09mA9SqXzyzutUe"], ["created_at", "2018-09-14 22:33:57.747766"], ["updated_at", "2018-09-14 22:33:57.747766"], ["session_token", "GFo0KDLUUbCD_nTtKAMyrQ"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Diogenes"], ["password_digest", "$2a$10$LFYjUCnJOtEt7dJqxvWMKeGWCW76gJjlr9byDCEKaBGoFQgH6bJq."], ["created_at", "2018-09-14 22:33:57.835277"], ["updated_at", "2018-09-14 22:33:57.835277"], ["session_token", "Mgii8qRDpUPM07HYrbNumA"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Pythagoras"], ["password_digest", "$2a$10$4SC9ggdncLeXsHZ6sXc5NOhb/VPb6Hfro5HigO2TT.IkSi7.G/R3C"], ["created_at", "2018-09-14 22:33:57.920727"], ["updated_at", "2018-09-14 22:33:57.920727"], ["session_token", "nAT7PN9TgDnas8u7AobAUw"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Aristotle"], ["password_digest", "$2a$10$7yvkJN0MtrEauvNbzgyssOU5k703oxse1D0SgnRWb6dFfb5Ah1MA."], ["created_at", "2018-09-14 22:33:58.007821"], ["updated_at", "2018-09-14 22:33:58.007821"], ["session_token", "8GVnqTW2ZtaXjPGMWmy22w"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "nottobe"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Galen"], ["password_digest", "$2a$10$0dCEVCc88KhnKcD6wyRb9eRMoCeTc3HvRuVuK1nDnvNjbcjlXNSkq"], ["created_at", "2018-09-14 22:33:58.275074"], ["updated_at", "2018-09-14 22:33:58.275074"], ["session_token", "WJ0pnphbp2ew9UH2q0H4Kg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "session_token" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2018-09-14 22:33:58.276970"], ["session_token", "VO0gnWkiG0m0T6iHVub0HA"], ["id", 195]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "session_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Gorgias"], ["password_digest", "$2a$10$lVR7WRXNvFpBKw/PonBRleAHJezaffVP112rwISTV7Dp5gCELn.C2"], ["created_at", "2018-09-14 22:33:58.361688"], ["updated_at", "2018-09-14 22:33:58.361688"], ["session_token", "P-Dd99xanfrJakGYI98Dgg"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
